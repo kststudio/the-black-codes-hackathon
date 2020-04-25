@@ -1,19 +1,21 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Nav extends Component {
-    render() {
-        return (
-            <nav className="main-nav">
-                <div className="container">
-                    <h1>The Black Code</h1>
-                    <ul>
-                        <li className="mobile-button"><a href="/">Menu</a></li>
-                        <li><a href="/">Sign Out</a></li>
-                    </ul>
-                </div>
-            </nav>
-        );
-    }
+  render() {
+    return (
+      <nav className="nav">
+        <img
+            className="nav-logo"
+            src="https://res.cloudinary.com/dmwzkada0/image/upload/v1587804735/TBC-logo.png"
+            alt="" />
+        <ul className="nav-list">
+          <li className="list-item">Home</li>
+          <li className="list-item">About</li>
+          <li className="list-item">Login</li>
+        </ul>
+      </nav>
+    );
+  }
 }
 
 export default Nav;
