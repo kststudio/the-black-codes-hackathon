@@ -27,7 +27,7 @@ class Footer extends Component {
               <div className="footer-bottom">
 
                 <div className="copyright">
-                  <p>&copy; 2020 - <a href="http://theblackcodes.org">The Black.Codes</a>. <br />All rights reserved.</p>
+                  <p>&copy; 2020 - <a href="http://theblackcodes.org">The Black.Codes Project</a>. <br />All rights reserved.</p>
                 </div>
               </div>
             </footer>
